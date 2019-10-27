@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+// ----------------------
+// == Site settings
+// ----------------------
+
+// Fonts
+$font1: Helvetica, Arial, sans-serif;
+
+// Colors
+$color-bg:  white;
+$color-bg-curriculum: darken(white, 15);
+
+$color-font-heading: black;
+$color-font-paragraph: lighten(black, 15);
+$color-font-details: black;
+
+$color-border-section: lighten(black, 60);
+$color-border-contact: black;
+
+$color-link: black;
+
+// Media queries
+$terminal-size-small: 480px;
+$terminal-size-medium: 600px;
+$terminal-size-big: 800px;

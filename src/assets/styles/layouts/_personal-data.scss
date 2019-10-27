@@ -1,0 +1,68 @@
+/* ==|====================
+   Layout/Personal data
+   ======================= */
+
+.contactData {
+  padding: 25px 35px;
+  border-bottom: 2px solid $color-border-contact;
+  background: $color-border-section;
+}
+
+.photo {
+  width: 12.5%;
+  float: left;
+  margin-right: 30px;
+
+  & img {
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+  }
+}
+
+.contactName {
+  float: left;
+
+  & h1 {
+    font-size: 2em;
+    font-weight: 700;
+    font-family: $font1;
+    margin-top: 0.1px;
+    margin-bottom: -6px;
+  }
+
+  & h2 {
+    font-size: 1.5em;
+    margin-left: 2px;
+    font-family: $font1;
+  }
+}
+
+.contactDetails {
+  margin-top: 6px;
+  float: right;
+
+  & ul {
+    list-style-type: none;
+    font-size: 0.9em;
+    margin-top: 2px;
+
+    & li {
+      margin-bottom: 3px;
+      color: $color-font-paragraph;
+    
+      & a {
+        color: $color-font-paragraph;
+        text-decoration: none;
+
+        &:hover {
+          color: $color-link;
+        }
+      }
+    }
+  }
+}
+
+.curriculumData {
+  padding: 0 40px;
+}

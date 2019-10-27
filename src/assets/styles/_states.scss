@@ -1,0 +1,70 @@
+/* ==|====================
+   Media states
+   ======================= */
+
+@media all and (max-width: $terminal-size-big) {
+  .photo {
+    display: none;
+  }
+
+  .curriculumContent__skills {
+    column-count: 2;
+  }
+}
+
+@media all and (max-width: $terminal-size-medium) {
+  .curriculum {
+    width: 95%;
+    margin: 10px auto;
+    min-width: 280px;
+  }
+
+  .photo {
+    display: none;
+  }
+
+  .contactName,
+  .contactDetails {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .curriculumTitle,
+  .curriculumContent {
+    float: none;
+    width: 100%;
+  }
+
+  .curriculumTitle {
+    margin-left: -2px;
+    font-size: 1.25em;
+  }
+
+  .curriculumContent__skills {
+    column-count: 2;
+  }
+}
+
+@media all and (max-width: $terminal-size-small) {
+  .contactData {
+    padding: 15px 15px;
+  }
+
+  section {
+    padding: 15px 0 0;
+  }
+
+  .curriculumData {
+    padding: 0 25px;
+  }
+
+  .curriculumContent__skills {
+    column-count: 1;
+  }
+
+  .contactName h1 {
+    line-height: 0.8em;
+    margin-bottom: 4px;
+  }
+}
