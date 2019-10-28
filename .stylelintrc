@@ -5,10 +5,10 @@
     "stylelint-use-nesting"
   ],
   "rules": {
+    "csstools/use-nesting": "always",
     "declaration-colon-space-after": "always",
     "max-empty-lines": 2,
     "unit-whitelist": ["em", "px", "%"],
-
     "selector-nested-pattern": "^&",
     "indentation": 2,
     "no-descending-specificity": null,
